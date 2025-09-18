@@ -1,0 +1,11 @@
+[project]
+name = "itg-launch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mouse>=0.7.1",
+    "psutil>=7.0.0",
+    "types-psutil>=7.0.0.20250822",
+]
