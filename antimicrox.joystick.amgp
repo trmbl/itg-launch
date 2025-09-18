@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="3.5.1">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>L-TEK Dance Pad PRO</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030046b3eb0300004180000000000000100332833</uniqueID>
+    <names>
+        <buttonname index="12">itgmania</buttonname>
+    </names>
+    <keyPressTime>140</keyPressTime>
+    <sets>
+        <set index="1">
+            <button index="12">
+                <slots>
+                    <slot>
+                        <code>1000</code>
+                        <mode>hold</mode>
+                    </slot>
+                    <slot>
+                        <path>C:/tools/nircmdc.exe</path>
+                        <arguments>exec show uv run --project C:/dev/itg-launch C:/dev/itg-launch/main.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>6000</code>
+                        <mode>hold</mode>
+                    </slot>
+                    <slot>
+                        <path>C:/tools/nircmdc.exe</path>
+                        <arguments>killprocess itgmania.exe</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</joystick>
